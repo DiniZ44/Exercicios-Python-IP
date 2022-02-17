@@ -1,0 +1,15 @@
+velocidade = float(input("Digite sua velocidade: "))
+
+km = velocidade >= 80
+vel_ex = (velocidade - 80) 
+valor_multa = (vel_ex * 50/100) 
+print("###############################" )
+print("        Cumpom Fiscal   ")
+print("###############################" )
+print("        Placa HXJ 2546  ")
+print("###############################" )
+print(" Hora 14:25   Data 04/04/2017" )
+print("###############################" )
+print("Valor da multa é %.2f " % valor_multa)
+print("###############################" )
+print("Velocidade excedida é %.2f " % vel_ex)
